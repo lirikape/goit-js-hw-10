@@ -31,8 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const firstCat = cat[0];
       catInfo.innerHTML = `
                 <h2>${firstCat.breeds[0].name}</h2>
-                <p>Description: ${firstCat.breeds[0].description}</p>
-                <p>Temperament: ${firstCat.breeds[0].temperament}</p>
+                <p><span class="coloring">Description:</span> ${firstCat.breeds[0].description}</p>
+                <p><span class="coloring">Temperament:</span> ${firstCat.breeds[0].temperament}</p>
                 <img src="${firstCat.url}" alt="Cat Image" width = 100%>
             `;
     } else {

@@ -34,11 +34,10 @@ body {
 .cat-info {
     display: flex;
     flex-direction: column;
-    grid-template-columns: 1fr 2fr;
     align-items: flex-start;
-    gap: 16px;
-    
+    gap: 16px; 
 }
+
   
 .text-container {
     display: flex;
@@ -57,9 +56,7 @@ body {
     line-height: normal;
 }
   
-.text {
-    font-size: 16px;
-}
+
   
 .subtitle {
     font-size: 22px;
@@ -87,4 +84,7 @@ body {
     } 
 .is-hidden{
     display: none;
+}
+.coloring {
+    color: rgb(164, 31, 31);
 }
